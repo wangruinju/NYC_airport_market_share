@@ -1,6 +1,6 @@
 # NYC_airport_market_share
 
-This is a project based on [NYC taxi database.](https://cloud.google.com/bigquery/public-data/nyc-tlc-trips)
+This is a project based on [NYC taxi database](https://cloud.google.com/bigquery/public-data/nyc-tlc-trips) on Google cloud.
 
 ## Question 1: Market Share of Airlines Using NYC Taxi Data
 Using the provided data, we can estimate the market share of different airlines based on taxi drop-offs at different terminals for the 3 airports (JFK, Newark, La Guardia) in NYC.
