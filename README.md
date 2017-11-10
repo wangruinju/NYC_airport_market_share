@@ -1,6 +1,6 @@
 # NYC_airport_market_share
 
-This is a project based on [NYC taxi database](https://cloud.google.com/bigquery/public-data/nyc-tlc-trips) on Google cloud. The total datasets is about 90GB.
+This is a project based on [NYC taxi database](https://cloud.google.com/bigquery/public-data/nyc-tlc-trips) on Google cloud. The total datasets are about 90GB.
 
 # Taxi Platforms
 
@@ -20,7 +20,7 @@ STEP 1: get the GPS latitude and longitude of [JFK Airport](https://tools.wmflab
 | Newark     | 40.6925   | -74.168611 |
 | La Guardia | 40.77725  | -73.872611 |
 
-STEP 2: get the area size of each airport based on wikipedia.
+STEP 2: get the area size of each airport based on the introductions from wikipedia.
 
 | Airport    | Area     |
 |------------|----------|
@@ -35,7 +35,7 @@ STEP 3: get the unit length of 1 degree at Latitude and Longitude Scale of New Y
 | unit of latitude  | 111.047          |
 | unit of longitude | 31.194           |
 
-STEP 4: set up the possible box range of each airport, which will be convenient for querying data in the next section.
+STEP 4: set up the possible box range of each airport, which will be convenient for querying data later.
 
 | Airport    | Latitude (-)  | Latitude (+)  | Longitude (-)  | Longitude (+)  |
 |------------|---------------|---------------|----------------|----------------|
@@ -57,7 +57,7 @@ The extracted data is about 6GB.
 
 Comments about the data:
 
-1. Yellow taxi have the full complete data from 2009-2016 while green taxi data ranges from 2013-2016. 
+1. Yellow taxi has the full complete data from 2009-2016 while green taxi data ranges from 2013-2016. 
 2. Uber/Lyft platform ranges from 2015-2016 and only provides pickup time and location information.
 3. The data of green taxi in 2016 has some flaws. Neither location nor the number of passenger are real values at the same time.
 
@@ -72,11 +72,11 @@ Some brief conclusions from the dashboard above:
 
 2. Taxi Business by Month: it is reasonable that we can show the total number of passenger traffic monthly. It is interesting to see the passenger traffic fluctuate from Jan to Dec. The peak takes place at early summer. This is when the tourism of New York city gets popular. Futher exploration may be combined with tourism and weather data.
 
-3. Taxi Business at Airport: still we use the monthly statistics to check taxi activity at these three airports. The passenger traffic at the airport actually reflect some insights of the market shares. However, it is not reasonable to see the low percentile of Newark Airport. One possible reason is that people who live in New Jersey might come to Newark first. In that case, we could not have the data to justify the market share of Newark.
+3. Taxi Business at Airport: still we use the monthly statistics to check taxi activity at these three airports. The passenger traffic at the airport actually reflect some insights of the market shares. However, it is not reasonable to see the low percentile of Newark Airport. One possible reason is that people who live in New Jersey might come to Newark first. In this case, we could not have the data to justify the market share of Newark.
 
     Also, the international airlines might be another problem for analyzing the market share. For example, La Guardia Airport does not have a lot of international services. Further exploration may be combined with flight data from 4 big airline company: AA, UA, Southwest and Delta.
 
-    Lastly, we don't cover the data of people who taking other transportaion platforms like train or self-pickup. Further exploration may be combined with public transportation data. The following figure shows the official statistics about market share at these three airports [1]:
+    Lastly, we don't cover the data of people who take other transportaion platforms like train or do family-pickup. Further exploration may be combined with public transportation data. The following figure shows the official statistics about market share at these three airports [1]:
 
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Anual%20Report.JPG width="800">
 
@@ -84,11 +84,17 @@ Some brief conclusions from the dashboard above:
 
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/uber_lyft_market_share_01.png width="500">
 
-Even though we can't know get the complete passenger traffic of green taxi, we can see the decreasing trend of taxi market, especially yellow taxi. That is why we can hear some media news of taxi driver strike at New York city. It is the fact that either Uber or Lyft are gradually taking over the market share of taxi. Further exploration may be combined with media news about growths of Uber/Lyft and taxi development policy at New York city.
+Even though we can't know get the complete passenger traffic of green taxi, we can see the decreasing trend of taxi market, especially yellow taxi. That is why we can hear some media news of taxi driver strike at New York city. It is the fact that either Uber or Lyft is gradually taking over the market share of taxi. Further exploration may be combined with media news about growths of Uber/Lyft and taxi development policy at New York city.
 
 ## Question 2: Correlate Taxi Trips to Property Prices
-Applying the taxi data, we can create heat maps of taxi acitivity to help in pricing commericial/multi-family property. 
+Initial thoughts: Applying the taxi data, we can create heat maps of taxi acitivity to help in pricing commericial/multi-family property. 
+
+A paper [3] may be useful as a guideline to build up a model.
+
+## Review
+Thank you for taking time reviewing the project. I will keep updating the modeling as the time goes on. 
 
 ## Reference
 1. Airport Traffic Report: https://www.panynj.gov/airports/pdf-traffic/ATR2016.pdf
 2. Uber/Lyft market share report: https://www.recode.net/2017/8/31/16227670/uber-lyft-market-share-deleteuber-decline-users
+3. A Simple Baseline for Travel Time Estimation using Large-Scale Trip Data: https://arxiv.org/pdf/1512.08580.pdf
