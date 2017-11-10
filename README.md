@@ -45,9 +45,13 @@ STEP 4: set up the possible box range of each airport, which will be convenient 
 
 ## Data ETL
 
-The basic idea is to run complex SQL on BigQuery platform and create a table like the following:
+The basic idea is to run complex SQL on BigQuery platform and create a table like the following example:
 
-
+| year | month | trip_time | trip_distance | passenger_count | airport           | source    |
+|------|-------|-----------|---------------|-----------------|-------------------|-----------|
+| 2012 | 12    | 5.8       | 2.3           | 2               | JFK Airport       | yellow    |
+| 2015 | 8     | null      | null          | 1 (assumed)     | Newark Airport    | uber/lyft |
+| 2009 | 2     | 3.4       | 15.3          | 4               | LaGuardia Airport | green     |
 
 ## Passenger Traffic
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Dashboard%201.png width="900">
