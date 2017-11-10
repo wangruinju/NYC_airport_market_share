@@ -81,10 +81,10 @@ Some brief conclusions from the dashboard above:
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Anual%20Report.JPG width="800">
 
 4. Taxi Platform: it is always interesting to see how the new platforms compete with the traditional ones in the business world. Here I label "uber/lyft" to represent For-Hire Vehicle due to the fact that Uber and Lyft account for the most market. The following figure gives a real-time market share between Uber and Lyft [2]:
+    
+    Even though we can't know get the complete passenger traffic of green taxi, we can see the decreasing trend of taxi market, especially yellow taxi. That is why we can hear some media news of taxi driver strike at New York city. It is the fact that either Uber or Lyft is gradually taking over the market share of taxi. Further exploration may be combined with media news about growths of Uber/Lyft and taxi development policy at New York city.
 
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/uber_lyft_market_share_01.png width="500">
-
-   Even though we can't know get the complete passenger traffic of green taxi, we can see the decreasing trend of taxi market, especially yellow taxi. That is why we can hear some media news of taxi driver strike at New York city. It is the fact that either Uber or Lyft is gradually taking over the market share of taxi. Further exploration may be combined with media news about growths of Uber/Lyft and taxi development policy at New York city.
 
 ## Question 2: Correlate Taxi Trips to Property Prices
 Initial thoughts: Applying the taxi data, we can create heat maps of taxi acitivity to help in pricing commericial/multi-family property. 
