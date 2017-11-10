@@ -417,6 +417,9 @@ union ALL
 
 # green
 # 2016
+# dataset issue with 2016 green 
+# use the passenger rate 2013-2015 to justify
+
 select 
 extract(year from pickup_datetime) as year, 
 extract(month from pickup_datetime) as month, 
@@ -470,7 +473,7 @@ extract(year from pickup_datetime) as year,
 extract(month from pickup_datetime) as month, 
 TIMESTAMP_DIFF(dropoff_datetime, pickup_datetime, MINUTE) as trip_time,
 trip_distance,
-passenger_count,
+1.45 as passenger_count,
 "Newark Airport" as airport,
 "green" as source
 from `bigquery-public-data.new_york.tlc_green_trips_2016`  
@@ -494,7 +497,7 @@ extract(year from pickup_datetime) as year,
 extract(month from pickup_datetime) as month, 
 TIMESTAMP_DIFF(dropoff_datetime, pickup_datetime, MINUTE) as trip_time,
 trip_distance,
-1.45 as passenger_count,
+passenger_count,
 "JFK Airport" as airport,
 "green" as source
 from `bigquery-public-data.new_york.tlc_green_trips_2015`  
@@ -519,7 +522,7 @@ extract(year from pickup_datetime) as year,
 extract(month from pickup_datetime) as month, 
 TIMESTAMP_DIFF(dropoff_datetime, pickup_datetime, MINUTE) as trip_time,
 trip_distance,
-1.45 as passenger_count,
+passenger_count,
 "LaGuardia Airport" as airport,
 "green" as source
 from `bigquery-public-data.new_york.tlc_green_trips_2015`  
@@ -566,7 +569,7 @@ extract(year from pickup_datetime) as year,
 extract(month from pickup_datetime) as month, 
 TIMESTAMP_DIFF(dropoff_datetime, pickup_datetime, MINUTE) as trip_time,
 trip_distance,
-1.45 as passenger_count,
+passenger_count,
 "JFK Airport" as airport,
 "green" as source
 from `bigquery-public-data.new_york.tlc_green_trips_2014`  
@@ -591,7 +594,7 @@ extract(year from pickup_datetime) as year,
 extract(month from pickup_datetime) as month, 
 TIMESTAMP_DIFF(dropoff_datetime, pickup_datetime, MINUTE) as trip_time,
 trip_distance,
-1.45 as passenger_count,
+passenger_count,
 "LaGuardia Airport" as airport,
 "green" as source
 from `bigquery-public-data.new_york.tlc_green_trips_2014`  
@@ -638,7 +641,7 @@ extract(year from pickup_datetime) as year,
 extract(month from pickup_datetime) as month, 
 TIMESTAMP_DIFF(dropoff_datetime, pickup_datetime, MINUTE) as trip_time,
 trip_distance,
-1.45 as passenger_count,
+passenger_count,
 "JFK Airport" as airport,
 "green" as source
 from `bigquery-public-data.new_york.tlc_green_trips_2013`  
@@ -663,7 +666,7 @@ extract(year from pickup_datetime) as year,
 extract(month from pickup_datetime) as month, 
 TIMESTAMP_DIFF(dropoff_datetime, pickup_datetime, MINUTE) as trip_time,
 trip_distance,
-1.45 as passenger_count,
+passenger_count,
 "LaGuardia Airport" as airport,
 "green" as source
 from `bigquery-public-data.new_york.tlc_green_trips_2013`  
@@ -711,7 +714,7 @@ extract(year from pickup_datetime) as year,
 extract(month from pickup_datetime) as month, 
 null as trip_time,
 null as trip_distance,
-null as passenger_count,
+1 as passenger_count,
 zone as airport,
 "uber/lyft" as source
 from `bigquery-public-data.new_york.tlc_fhv_trips_2016`  
@@ -730,7 +733,7 @@ extract(year from pickup_datetime) as year,
 extract(month from pickup_datetime) as month, 
 null as trip_time,
 null as trip_distance,
-null as passenger_count,
+1 as passenger_count,
 zone as airport,
 "uber/lyft" as source
 from `bigquery-public-data.new_york.tlc_fhv_trips_2015`  
