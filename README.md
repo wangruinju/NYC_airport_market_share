@@ -18,7 +18,7 @@ STEP 1: get the GPS latitude and longitude of [JFK Airport](https://tools.wmflab
 |------------|-----------|------------|
 | JFK        | 40.639722 | -73.778889 |
 | Newark     | 40.6925   | -74.168611 |
-| LaGuardia | 40.77725  | -73.872611 |
+| La Guardia | 40.77725  | -73.872611 |
 
 STEP 2: get the area size of each airport based on wikipedia.
 
@@ -27,6 +27,21 @@ STEP 2: get the area size of each airport based on wikipedia.
 | JFK        | 19.951   |
 | Newark     | 0.275186 |
 | La Guardia | 2.75186  |
+
+STEP 3: get the unit length of 1 degree at Latitude and Longitude Scale of New York based on [geographical calculator](https://msi.nga.mil/MSISiteContent/StaticFiles/Calculators/degree.html).
+
+| Conversion        | Unit (km/degree) |
+|-------------------|------------------|
+| unit of latitude  | 111.047          |
+| unit of longitude | 31.194           |
+
+STEP 4: set up the possible box range of each airport, which will be convenient for querying data in the next section.
+
+| Airport    | Latitude (-)  | Latitude (+)  | Longitude (-)  | Longitude (+)  |
+|------------|---------------|---------------|----------------|----------------|
+| JFK        | 40.5994989032 | 40.6799450968 | -73.922078531  | -73.635699469  |
+| Newark     | 40.6877760386 | 40.6972239614 | -74.1854277512 | -74.1517942488 |
+| La Guardia | 40.7623115225 | 40.7921884775 | -73.9257902368 | -73.8194317632 |
 
 ## Data ETL
 
