@@ -45,13 +45,21 @@ STEP 4: set up the possible box range of each airport, which will be convenient 
 
 ## Data ETL
 
-The basic idea is to run complex SQL on BigQuery platform and create a table like the following example:
+The basic idea is to run [complex SQL](https://github.com/wangruinju/NYC_airport_market_share/blob/master/SQL/model_11_9.sql) on BigQuery platform and create a table like the following example:
 
 | year | month | trip_time | trip_distance | passenger_count | airport           | source    |
 |------|-------|-----------|---------------|-----------------|-------------------|-----------|
 | 2012 | 12    | 5.8       | 2.3           | 2               | JFK Airport       | yellow    |
 | 2015 | 8     | null      | null          | 1 (assumed)     | Newark Airport    | uber/lyft |
 | 2009 | 2     | 3.4       | 15.3          | 4               | LaGuardia Airport | green     |
+
+Comments about the data:
+
+1. Yellow taxi have the full complete data from 2009-2016 while green taxi data ranges from 2013-2016. 
+2. Uber/Lyft platform ranges from 2015-2016 and only provides pickup time and location information.
+3. The data of green taxi in 2016 has some flaws. Neither location nor the number of passenger are real values at the same time.
+
+Solving such issue is to use historical data of how many passengers the green car will carry. Based on the [SQL codes](https://github.com/wangruinju/NYC_airport_market_share/blob/master/SQL/green_car_pa_per_passager.sql), I set the average number of passengers per green taxi is 1.45, which might be not quite right (You will see some abnomality in the later figures).
 
 ## Passenger Traffic
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Dashboard%201.png width="900">
