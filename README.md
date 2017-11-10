@@ -12,13 +12,21 @@ The For-Hire Vehicle (“FHV”) trip records include fields capturing the dispa
 
 ## Target for airport
 
-step 1: get the GPS latitude and longitude of [JFK Airport](https://tools.wmflabs.org/geohack/geohack.php?pagename=John_F._Kennedy_International_Airport&params=40_38_23_N_073_46_44_W_region:US-NY_type:airport), [Newark Airport](https://tools.wmflabs.org/geohack/geohack.php?pagename=Newark_Liberty_International_Airport&params=40_41_33_N_074_10_07_W_region:US-NJ_type:airport), [LaGuardia Airport](https://tools.wmflabs.org/geohack/geohack.php?pagename=LaGuardia_Airport&params=40_46_38.1_N_73_52_21.4_W_region:US-NY_type:airport).
+STEP 1: get the GPS latitude and longitude of [JFK Airport](https://tools.wmflabs.org/geohack/geohack.php?pagename=John_F._Kennedy_International_Airport&params=40_38_23_N_073_46_44_W_region:US-NY_type:airport), [Newark Airport](https://tools.wmflabs.org/geohack/geohack.php?pagename=Newark_Liberty_International_Airport&params=40_41_33_N_074_10_07_W_region:US-NJ_type:airport), [LaGuardia Airport](https://tools.wmflabs.org/geohack/geohack.php?pagename=LaGuardia_Airport&params=40_46_38.1_N_73_52_21.4_W_region:US-NY_type:airport).
 
 | Airport    | Latitude  | Longitude  |
 |------------|-----------|------------|
 | JFK        | 40.639722 | -73.778889 |
 | Newark     | 40.6925   | -74.168611 |
 | LaGuardia | 40.77725  | -73.872611 |
+
+STEP 2: get the area size of each airport based on wikipedia.
+
+| Airport    | Area     |
+|------------|----------|
+| JFK        | 19.951   |
+| Newark     | 0.275186 |
+| La Guardia | 2.75186  |
 
 ## Data ETL
 
