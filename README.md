@@ -12,7 +12,13 @@ The For-Hire Vehicle (“FHV”) trip records include fields capturing the dispa
 
 ## Target for airport
 
+step 1: get the GPS latitude and longitude of three airports.
 
+| Airport    | Latitude  | Longitude  |
+|------------|-----------|------------|
+| JFK        | 40.639722 | -73.778889 |
+| Newark     | 40.6925   | -74.168611 |
+| La Guardia | 40.77725  | -73.872611 |
 
 ## Data ETL
 
