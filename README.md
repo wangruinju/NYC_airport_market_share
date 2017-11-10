@@ -76,11 +76,11 @@ Some brief conclusions from the dashboard above:
 
 Also, the international airlines might be another problem for analyzing the market share. For example, La Guardia Airport does not have a lot of international services. Further exploration may be combined with flight data from 4 big airline company: AA, UA, Southwest and Delta.
 
-Lastly, we don't cover the data of people who taking other transportaion platforms like train or self-pickup. Further exploration may be combined with public transportation data. The following figure shows the official statistics about market share at these three airports:
+Lastly, we don't cover the data of people who taking other transportaion platforms like train or self-pickup. Further exploration may be combined with public transportation data. The following figure shows the official statistics about market share at these three airports [1]:
 
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Anual%20Report.JPG width="800">
 
-4. Taxi Platform: it is always to see how the new platforms compete with the traditional ones. Here I label "uber/lyft" to represent For-Hire Vehicle due to the fact that Uber and Lyft account for the most market. The following figure gives a real-time market share between Uber and Lyft.
+4. Taxi Platform: it is always to see how the new platforms compete with the traditional ones. Here I label "uber/lyft" to represent For-Hire Vehicle due to the fact that Uber and Lyft account for the most market. The following figure gives a real-time market share between Uber and Lyft [2]:
 
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/uber_lyft_market_share_01.png width="500">
 
@@ -89,4 +89,6 @@ Even though we can't know get the complete passenger traffic of green taxi, we c
 ## Question 2: Correlate Taxi Trips to Property Prices
 Applying the taxi data, we can create heat maps of taxi acitivity to help in pricing commericial/multi-family property. 
 
-
+## Reference
+1. Airport Traffic Report: https://www.panynj.gov/airports/pdf-traffic/ATR2016.pdf
+2. Uber/Lyft market share report: https://www.recode.net/2017/8/31/16227670/uber-lyft-market-share-deleteuber-decline-users
