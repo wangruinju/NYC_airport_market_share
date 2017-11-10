@@ -1,6 +1,6 @@
 # NYC_airport_market_share
 
-This is a project based on [NYC taxi database](https://cloud.google.com/bigquery/public-data/nyc-tlc-trips) on Google cloud.
+This is a project based on [NYC taxi database](https://cloud.google.com/bigquery/public-data/nyc-tlc-trips) on Google cloud. The total datasets is about 90GB.
 
 # Taxi Platforms
 
@@ -52,6 +52,8 @@ The basic idea is to run [complex SQL](https://github.com/wangruinju/NYC_airport
 | 2012 | 12    | 5.8       | 2.3           | 2               | JFK Airport       | yellow    |
 | 2015 | 8     | null      | null          | 1 (assumed)     | Newark Airport    | uber/lyft |
 | 2009 | 2     | 3.4       | 15.3          | 4               | LaGuardia Airport | green     |
+
+The extracted data is about 6GB.
 
 Comments about the data:
 
