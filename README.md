@@ -66,5 +66,17 @@ Solving such issue is to use historical data of how many passengers the green ca
 ## Passenger Traffic
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Dashboard%201.png width="900">
 
+Some brieft conclusions from the dashboard above:
+
+1. Taxi Business by Year: we can see the passenger traffic keeps growing until 2015. There is a big drop because we could not estimate the accurate number of passenger who took green taxi at 2016.
+
+2. Taxi Business by Month: it is reasonable that we can show the total number of passenger traffic monthly. It is interesting to see the passenger traffic fluctuate from Jan to Dec. The peak takes place at early summer. This is when the tourism of New York city gets popular. Futher exploration may be combined with tourism and weather data.
+
+3. Taxi Business at Airport: still we use the monthly statistics to check taxi activity at these three airports. The passenger traffic at the airport actually reflect some insights of the market shares. However, it is not reasonable to see the low percentile of Newark Airport. One possible reason is that people who live in New Jersey might come to Newark first. In that case, we could not have the data to justify the market share of Newark.
+
+Also, the international airlines might be another problem for analyzing the market share. For example, La Guardia Airport does not have a lot of international services. Further exploration may be combined with flight data from 4 big airlines: AA, UA, Southwest and Delta.
+
+Lastly, 
+
 ## Question 2: Correlate Taxi Trips to Property Prices
 Applying the taxi data, we can create heat maps of taxi acitivity to help in pricing commericial/multi-family property.
