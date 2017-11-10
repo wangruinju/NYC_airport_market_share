@@ -80,7 +80,7 @@ Some brief conclusions from the dashboard above:
 
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Anual%20Report.JPG width="800">
 
-4. Taxi Platform: it is always to see how the new platforms compete with the traditional ones. Here I label "uber/lyft" to represent For-Hire Vehicle due to the fact that Uber and Lyft account for the most market. The following figure gives a real-time market share between Uber and Lyft [2]:
+4. Taxi Platform: it is always interesting to see how the new platforms compete with the traditional ones in the business world. Here I label "uber/lyft" to represent For-Hire Vehicle due to the fact that Uber and Lyft account for the most market. The following figure gives a real-time market share between Uber and Lyft [2]:
 
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/uber_lyft_market_share_01.png width="500">
 
