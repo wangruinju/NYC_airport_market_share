@@ -66,7 +66,7 @@ Solving such issue is to use historical data of how many passengers the green ca
 ## Passenger Traffic
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Dashboard%201.png width="900">
 
-Some brieft conclusions from the dashboard above:
+Some brief conclusions from the dashboard above:
 
 1. Taxi Business by Year: we can see the passenger traffic keeps growing until 2015. There is a big drop because we could not estimate the accurate number of passenger who took green taxi at 2016.
 
@@ -78,11 +78,11 @@ Also, the international airlines might be another problem for analyzing the mark
 
 Lastly, we don't cover the data of people who taking other transportaion platforms like train or self-pickup. Further exploration may be combined with public transportation data. The following figure shows the official statistics about market share at these three airports:
 
-[True Airport Market Share](https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Anual%20Report.JPG width="900")
+<img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Anual%20Report.JPG width="900">
 
 4. Taxi Platform: it is always to see how the new platforms compete with the traditional ones. Here I label "uber/lyft" to represent For-Hire Vehicle due to the fact that Uber and Lyft account for the most market. The following figure gives a real-time market share between Uber and Lyft.
 
-[Uber and Lyft market shares](https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/uber_lyft_market_share_01.png width="600")
+<img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/uber_lyft_market_share_01.png width="600">
 
 Even though we can't know get the complete passenger traffic of green taxi, we can see the decreasing trend of taxi market, especially yellow taxi. That is probably I always see some media news of taxi driver strike at New York city. Further exploration may be combined with media news about growths of Uber/Lyft and taxi development policy at New York city.
 
