@@ -70,7 +70,11 @@ Some brief conclusions from the dashboard above:
 
 1. Taxi Business by Year: we can see the passenger traffic keeps growing until 2015. There is a big drop because we could not estimate the accurate number of passenger who took green taxi at 2016.
 
-2. Taxi Business by Month: it is reasonable that we can show the total number of passenger traffic monthly. It is interesting to see the passenger traffic fluctuate from Jan to Dec. The peak takes place at early summer. This is when the tourism of New York city gets popular. Futher exploration may be combined with tourism and weather data.
+2. Taxi Business by Month: it is reasonable that we can show the total number of passenger traffic monthly. It is interesting to see the passenger traffic fluctuate from Jan to Dec. The peak takes place at early summer. This is when the tourism of New York city gets popular. Futher exploration may be combined with tourism and weather data. Below are Manhattan Hotel Occupancy vs Time (2015-2016) and NYC weather.
+
+<img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Travel%20and%20Tourism.JPG width ="500">
+
+<img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/NYC%20weather.JPG width ="500">
 
 3. Taxi Business at Airport: still we use the monthly statistics to check taxi activity at these three airports. The passenger traffic at the airport actually reflect some insights of the market shares. However, it is not reasonable to see the low percentile of Newark Airport. One possible reason is that people who live in New Jersey might come to Newark first. In this case, we could not have the data to justify the market share of Newark.
 
