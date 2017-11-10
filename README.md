@@ -74,9 +74,19 @@ Some brieft conclusions from the dashboard above:
 
 3. Taxi Business at Airport: still we use the monthly statistics to check taxi activity at these three airports. The passenger traffic at the airport actually reflect some insights of the market shares. However, it is not reasonable to see the low percentile of Newark Airport. One possible reason is that people who live in New Jersey might come to Newark first. In that case, we could not have the data to justify the market share of Newark.
 
-Also, the international airlines might be another problem for analyzing the market share. For example, La Guardia Airport does not have a lot of international services. Further exploration may be combined with flight data from 4 big airlines: AA, UA, Southwest and Delta.
+Also, the international airlines might be another problem for analyzing the market share. For example, La Guardia Airport does not have a lot of international services. Further exploration may be combined with flight data from 4 big airline company: AA, UA, Southwest and Delta.
 
-Lastly, 
+Lastly, we don't cover the data of people who taking other transportaion platforms like train or self-pickup. Further exploration may be combined with public transportation data. The following figure shows the official statistics about market share at these three airports:
+
+[True Airport Market Share]()
+
+4. Taxi Platform: it is always to see how the new platforms compete with the traditional ones. Here I label "uber/lyft" to represent For-Hire Vehicle due to the fact that Uber and Lyft account for the most market. The following figure gives a real-time market share between Uber and Lyft.
+
+[Uber and Lyft market shares]()
+
+Even though we can't know get the complete passenger traffic of green taxi, we can see the decreasing trend of taxi market, especially yellow taxi. That is probably I always see some media news of taxi driver strike at New York city. Further exploration may be combined with media news about growths of Uber/Lyft and taxi development policy at New York city.
 
 ## Question 2: Correlate Taxi Trips to Property Prices
-Applying the taxi data, we can create heat maps of taxi acitivity to help in pricing commericial/multi-family property.
+Applying the taxi data, we can create heat maps of taxi acitivity to help in pricing commericial/multi-family property. 
+
+
