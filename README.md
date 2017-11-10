@@ -61,7 +61,7 @@ Comments about the data:
 2. Uber/Lyft platform ranges from 2015-2016 and only provides pickup time and location information.
 3. The data of green taxi in 2016 has some flaws. Neither location nor the number of passenger are real values at the same time.
 
-Solving such issue is to use historical data of how many passengers the green car will carry. Based on the [SQL codes](https://github.com/wangruinju/NYC_airport_market_share/blob/master/SQL/green_car_pa_per_passager.sql), I set the average number of passengers per green taxi is 1.45, which might be not quite right (You will see some abnomality in the later figures).
+    Solving such issue is to use historical data of how many passengers the green car will carry. Based on the [SQL codes](https://github.com/wangruinju/NYC_airport_market_share/blob/master/SQL/green_car_pa_per_passager.sql), I set the average number of passengers per green taxi is 1.45, which might be not quite right (You will see some abnomality in the later figures).
 
 ## Passenger Traffic
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Dashboard%201.png width="900">
