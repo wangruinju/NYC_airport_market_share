@@ -70,7 +70,7 @@ Some brief conclusions from the dashboard above:
 
 1. Taxi Business by Year: we can see the passenger traffic keeps growing until 2015. There is a big drop because we could not estimate the accurate number of passenger who took green taxi at 2016.
 
-2. Taxi Business by Month: it is reasonable that we can show the total number of passenger traffic monthly. It is interesting to see the passenger traffic fluctuate from Jan to Dec. The peak takes place at early summer. This is when the tourism of New York city gets popular. Futher exploration may be combined with tourism and weather data. Below are Manhattan Hotel Occupancy vs Time (2015-2016) and NYC weather.
+2. Taxi Business by Month: it is reasonable that we can show the total number of passenger traffic monthly. It is interesting to see the passenger traffic fluctuate from Jan to Dec. The peak takes place at early summer. This is when the tourism of New York city gets popular. Futher exploration may be combined with tourism and weather data. Below are Manhattan Hotel Occupancy vs Time (2015-2016) [4] and NYC monthly weather [5].
 
 <img src = https://github.com/wangruinju/NYC_airport_market_share/blob/master/images/Travel%20and%20Tourism.JPG width ="500">
 
@@ -102,3 +102,5 @@ Thank you for taking time reviewing the project. I will keep updating the modeli
 1. Airport Traffic Report: https://www.panynj.gov/airports/pdf-traffic/ATR2016.pdf
 2. Uber/Lyft market share report: https://www.recode.net/2017/8/31/16227670/uber-lyft-market-share-deleteuber-decline-users
 3. A Simple Baseline for Travel Time Estimation using Large-Scale Trip Data: https://arxiv.org/pdf/1512.08580.pdf
+4. NYC Travel and Tourism: https://www.nycedc.com/economic-data/travel-and-tourism
+5. NYC Weather Statistics: http://www.holiday-weather.com/new_york_city/averages/
